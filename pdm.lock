@@ -6,7 +6,7 @@ groups = ["default", "lint", "test"]
 cross_platform = true
 static_urls = false
 lock_version = "4.3"
-content_hash = "sha256:d52478a8cb4c08140367aed65883d46decfb7679178fae075c88563ad2b77233"
+content_hash = "sha256:fdc09d4564c104be479014e48ae095868a894544c22832bbcf6b73e29c8b5f84"
 
 [[package]]
 name = "astroid"
@@ -253,12 +253,12 @@ files = [
 
 [[package]]
 name = "pluggy"
-version = "1.2.0"
-requires_python = ">=3.7"
+version = "1.3.0"
+requires_python = ">=3.8"
 summary = "plugin and hook calling mechanisms for python"
 files = [
-    {file = "pluggy-1.2.0-py3-none-any.whl", hash = "sha256:c2fd55a7d7a3863cba1a013e4e2414658b1d07b6bc57b3919e0c63c9abb99849"},
-    {file = "pluggy-1.2.0.tar.gz", hash = "sha256:d12f0c4b579b15f5e054301bb226ee85eeeba08ffec228092f8defbaa3a4c4b3"},
+    {file = "pluggy-1.3.0-py3-none-any.whl", hash = "sha256:d89c696a773f8bd377d18e5ecda92b7a3793cbe66c87060a6fb58c7b6e1061f7"},
+    {file = "pluggy-1.3.0.tar.gz", hash = "sha256:cf61ae8f126ac6f7c451172cf30e3e43d3ca77615509771b3a984a0730651e12"},
 ]
 
 [[package]]
@@ -308,6 +308,16 @@ dependencies = [
 files = [
     {file = "pytest-cov-4.1.0.tar.gz", hash = "sha256:3904b13dfbfec47f003b8e77fd5b589cd11904a21ddf1ab38a64f204d6a10ef6"},
     {file = "pytest_cov-4.1.0-py3-none-any.whl", hash = "sha256:6ba70b9e97e69fcc3fb45bfeab2d0a138fb65c4d0d6a41ef33983ad114be8c3a"},
+]
+
+[[package]]
+name = "synodic-utilities"
+version = "0.1.1.dev5"
+requires_python = ">=3.11"
+summary = "Synodic python utility library"
+files = [
+    {file = "synodic_utilities-0.1.1.dev5-py3-none-any.whl", hash = "sha256:a2980005c8d7686d5a443a1efdfa6015eabbd502604872b59ce5580f212e51ec"},
+    {file = "synodic_utilities-0.1.1.dev5.tar.gz", hash = "sha256:03237654687b6e5ce21a82c52a424a68ba9e3c04ba8337a7ee0aa0ac51111637"},
 ]
 
 [[package]]

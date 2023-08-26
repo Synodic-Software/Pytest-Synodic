@@ -1,0 +1,37 @@
+[project]
+authors = [
+  {name = "Asher Norland", email = "asher.norland@synodic.software"},
+]
+dependencies = ["pytest>=7.4.0"]
+description = "Synodic Pytest utilities"
+license = {text = "MIT"}
+name = "pytest-synodic"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/Synodic-Software/Pytest-Synodic"
+repository = "https://github.com/Synodic-Software/Pytest-Synodic"
+
+[tool.pdm.options]
+update = ["--update-all"]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+lint = [
+  "black>= 23.7.0 ",
+  "isort>=5.12.0",
+  "mypy>=1.5.1 ",
+  "pylint>=2.17.5",
+]
+test = [
+  "pytest-cov>=4.1.0",
+]
+
+[build-system]
+build-backend = "pdm.backend"
+requires = ["pdm-backend"]

@@ -35,7 +35,7 @@ class IntegrationTests[T: Plugin](BaseTests[T], metaclass=ABCMeta):
             plugin_group_name: The group name for the plugin type
         """
         types = []
-        for entry in list(entry_points(group=f"{plugin_group_name}.{plugin_type.group}")):
+        for entry in list(entry_points(group=f"{plugin_group_name}.{plugin_type.group()}")):
             types.append(entry.load())
 
         assert plugin_type in types
@@ -47,8 +47,11 @@ class IntegrationTests[T: Plugin](BaseTests[T], metaclass=ABCMeta):
             plugin_type: The type to register
         """
 
-        assert plugin_type.group != ""
-        assert plugin_type.name != ""
+        assert plugin_type.group()
+        assert len(plugin_type.group())
+
+        assert plugin_type.name()
+        assert len(plugin_type.name())
 
 
 class UnitTests[T: Plugin](BaseTests[T], metaclass=ABCMeta):

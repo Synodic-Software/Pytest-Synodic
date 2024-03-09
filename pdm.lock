@@ -5,7 +5,7 @@
 groups = ["default", "lint", "test"]
 strategy = ["cross_platform"]
 lock_version = "4.4.1"
-content_hash = "sha256:e536de360ac0866aa9361171bfe1b3f33960fccdf0b471cc0a2581922d206bfc"
+content_hash = "sha256:3a3989a50a4d3471e2e94a560639e567556419ce578a16acdc2ed1f3004637a2"
 
 [[package]]
 name = "astroid"
@@ -266,12 +266,12 @@ files = [
 
 [[package]]
 name = "synodic-utilities"
-version = "0.1.1.dev6"
-requires_python = ">=3.11"
+version = "0.1.1.dev8"
+requires_python = ">=3.12"
 summary = "Synodic python utility library"
 files = [
-    {file = "synodic_utilities-0.1.1.dev6-py3-none-any.whl", hash = "sha256:3811c1b808bb6c9953f15b62f171fcc8d62fe4eba91a09718cfd4c081f9033f2"},
-    {file = "synodic_utilities-0.1.1.dev6.tar.gz", hash = "sha256:d5f246c1a064054a2de05a427cc1ba935ff56134aac6c7d3f7d947eb2ed21f5e"},
+    {file = "synodic_utilities-0.1.1.dev8-py3-none-any.whl", hash = "sha256:3034f10f780629ef5eea2078fcf82875f7aedee3b0e3fe2c04759bac4a55662a"},
+    {file = "synodic_utilities-0.1.1.dev8.tar.gz", hash = "sha256:e25a9dbd0cdd77bd555705ef3d13489591d43cd8bd93ac211cf9bead4e476c68"},
 ]
 
 [[package]]
